@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <h1 style="text-align: center; color: brown;" >Modulo Opdracht R&D kijk in de console</h1>
+    <script>
+
+        let limit = 100;
+        for (var i = 1; i <= limit; i++) {
+            let tekst = "";//lege string
+            //console.log(i);
+            if (i % 3 == 0) {
+                tekst += "Drie"
+
+            }
+            if (i % 5 == 0) {
+
+                tekst += "Vijf";
+            }
+            if (i % 7 == 0) {
+
+                tekst += "Zeven";
+            }
+            if (i % 11 == 0) {
+
+                tekst += "Elf";
+            }
+            if(tekst == ""){
+                tekst = i;
+            }
+            console.log(tekst);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
